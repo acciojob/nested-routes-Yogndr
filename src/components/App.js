@@ -12,11 +12,10 @@ import Jewellery from "./Jewellery";
 const App = () => {
   return (
    <BrowserRouter>
-   <div>
-      <Link to="/">Home</Link>
-      <br/>
-      <Link to="/women">Women</Link>
-      <br/>
+    <div style={{ display: "flex", gap: "15px", marginBottom: "20px" }}>
+        <Link to="/">Home</Link>
+        <Link to="/women">Women</Link>
+      </div>
       
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -28,7 +27,7 @@ const App = () => {
           </Route>
       </Routes>
         
-    </div>
+    
     </BrowserRouter>
   )
 }
