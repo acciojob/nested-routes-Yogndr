@@ -9,10 +9,12 @@ const Women = () => {
   return (
     <div>
      <p>Women Items:</p><br/>
-     <Link to="grooming">Grooming</Link><br />
-      <Link to="shirt">Shirt</Link><br />
-      <Link to="trouser">Trouser</Link><br />
-      <Link to="jewellery">Jewellery</Link><br />
+     <ul>
+     <li><Link to="grooming">Grooming</Link></li><br />
+       <li><Link to="shirt">Shirt</Link></li><br />
+       <li><Link to="trouser">Trouser</Link></li><br />
+       <li><Link to="jewellery">Jewellery</Link></li><br />
+      </ul>
        <Outlet/>
 
 
