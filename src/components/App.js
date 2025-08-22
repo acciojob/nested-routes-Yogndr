@@ -13,14 +13,7 @@ const App = () => {
   return (
    <BrowserRouter>
    <div>
-    <nav>
-      <ul>
-      <li><Link to="/">Home</Link></li>
-      <br/>
-      <li><Link to="/women">Women</Link></li>
-      <br/>
-      </ul>
-      </nav>
+  
       
       <Routes>
         <Route path="/" element={<Home/>}/>

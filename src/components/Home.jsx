@@ -3,7 +3,15 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
-        Index
+        <nav>
+      <ul>
+      <li><Link to="/">Home</Link></li>
+      <br/>
+      <li><Link to="/women">Women</Link></li>
+      <br/>
+      </ul>
+      </nav>
+       
     </div>
   )
 }
