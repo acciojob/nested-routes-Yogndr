@@ -10,7 +10,7 @@ const Women = () => {
           <Link to="grooming">Grooming</Link>
         </li>
         <li>
-          <Link to="shirt">Shirt</Link>
+          <Link to="Shirt">Shirt</Link>
         </li>
         <li>
           <Link to="trouser">Trouser</Link>
