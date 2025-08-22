@@ -4,7 +4,8 @@ import { Link, Outlet } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      <nav>
+        Index
+      {/* <nav>
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -20,7 +21,7 @@ const Home = () => {
           <h3>Index</h3>
           <Outlet />
         </div>
-      </main>
+      </main> */}
     </div>
   );
 };

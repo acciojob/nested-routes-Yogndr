@@ -1,20 +1,41 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import './../styles/App.css';
 import Grooming from "./Grooming";
 import Home from "./Home";
 import Women from "./Women";
+import Shirt from './Shirt';
+import Trouser from './Trouser';
+import Jewellery from './Jewellery';
 
 const App = () => {
   return (
    <BrowserRouter>
-      <Routes>
+   <div>
+        <Link to="/">Home</Link>
+        {/* <br /> */}
+        <Link to="/women">Women</Link>
+        {/* <br /> */}
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+
+          {/* Nested Routes for Women */}
+          <Route path="/women" element={<Women />}>
+            <Route path="grooming" element={<Grooming />} />
+            <Route path="shirt" element={<Shirt/>} />
+            <Route path="trouser" element={<Trouser />} />
+            <Route path="jewellery" element={<Jewellery/>} />
+          </Route>
+        </Routes>
+      </div>
+      {/* <Routes>
         <Route path="/" element={<Home/>}>
         <Route path="women" element={<Women />}>
             <Route path=":item" element={<Grooming />} />
           </Route>
           </Route>
-      </Routes>
+      </Routes> */}
     </BrowserRouter>
   )
 }

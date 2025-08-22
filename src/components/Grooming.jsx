@@ -2,10 +2,11 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 
 const Grooming = () => {
-    const {item} = useParams()
+    // const {item} = useParams()
   return (
     <div>
-        <p>{item}</p>
+        Grooming
+        {/* <p>{item}</p> */}
     </div>
   )
 }
