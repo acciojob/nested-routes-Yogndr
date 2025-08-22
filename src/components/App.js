@@ -12,9 +12,6 @@ import Jewellery from "./Jewellery";
 const App = () => {
   return (
    <BrowserRouter>
-   <div>
-  
-      
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/women" element={<Women />}>
@@ -24,8 +21,6 @@ const App = () => {
             <Route path="jewellery" element={<Jewellery />} />
           </Route>
       </Routes>
-        
-    </div>
     </BrowserRouter>
   )
 }
