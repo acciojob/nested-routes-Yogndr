@@ -13,9 +13,9 @@ const App = () => {
    <BrowserRouter>
    <div>
         <Link to="/">Home</Link>
-        {/* <br /> */}
+        <br />
         <Link to="/women">Women</Link>
-        {/* <br /> */}
+        <br />
 
         <Routes>
           <Route path="/" element={<Home />} />
