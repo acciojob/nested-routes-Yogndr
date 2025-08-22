@@ -13,12 +13,10 @@ const App = () => {
   return (
    <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/women" element={<Women />}>
-            <Route path="grooming" element={<Grooming />} />
-            <Route path="shirt" element={<Shirt />} />
-            <Route path="trouser" element={<Trouser />} />
-            <Route path="jewellery" element={<Jewellery />} />
+        <Route path="/" element={<Home/>}>
+        <Route path="women" element={<Women />}>
+            <Route path=":item" element={<Grooming />} />
+          </Route>
           </Route>
       </Routes>
     </BrowserRouter>
