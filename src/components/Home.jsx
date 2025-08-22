@@ -1,26 +1,28 @@
-import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import React from "react";
+import { Link, Outlet } from "react-router-dom";
 
 const Home = () => {
   return (
     <div>
-        <nav>
-      <ul>
-      <li><Link to="/">Home</Link></li>
-      <br/>
-      <li><Link to="/women">Women</Link></li>
-      <br/>
-      </ul>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/women">Women</Link>
+          </li>
+          
+        </ul>
       </nav>
       <main>
         <div className="main">
-            <h3>Index</h3>
-            <Outlet/>
+          <h3>Index</h3>
+          <Outlet />
         </div>
       </main>
-       
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

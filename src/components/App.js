@@ -1,13 +1,9 @@
-
-import React from "react";
+import React from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './../styles/App.css';
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import Grooming from "./Grooming";
 import Home from "./Home";
 import Women from "./Women";
-import Grooming from "./Grooming";
-import Shirt from "./Shirt";
-import Trouser from "./Trouser";
-import Jewellery from "./Jewellery";
 
 const App = () => {
   return (
