@@ -4,7 +4,7 @@ import React from 'react';
 const Women = () => {
   return (
     <div>
-         <p>Women Items:</p><br />
+         <p>Women Items:</p>
       <Link to="grooming">Grooming</Link>
       <Link to="shirt">Shirt</Link>
       <Link to="trouser">Trouser</Link>
