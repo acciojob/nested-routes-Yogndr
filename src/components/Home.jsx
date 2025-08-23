@@ -3,14 +3,15 @@ import { Link, Outlet } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div>
+    
+    <main>
+        <div>
        
-       <main>
-       <div className="main">
+       
           <h3>Index</h3>
           
-        </div>
-      </main> 
+        
+      
       {/* <nav>
         <ul>
           <li>
@@ -29,6 +30,7 @@ const Home = () => {
         </div>
       </main> */}
     </div>
+   </main>
   );
 };
 
