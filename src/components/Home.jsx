@@ -4,7 +4,13 @@ import { Link, Outlet } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-        Index
+       
+       <main>
+       <div className="main">
+          <h3>Index</h3>
+          <Outlet />
+        </div>
+      </main> 
       {/* <nav>
         <ul>
           <li>

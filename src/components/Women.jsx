@@ -5,13 +5,14 @@ const Women = () => {
   return (
     <div>
          <p>Women Items:</p>
+        <nav>
          <ul>
      <li> <Link to="grooming">Grooming</Link></li>
       <li><Link to="Shirt">Shirt</Link></li>
       <li><Link to="trouser">Trouser</Link></li>
       <li><Link to="jewellery">Jewellery</Link></li>
       </ul>
-
+    </nav>
       {/* Nested components will render here */}
       <Outlet />
       {/* <p>Women Items:</p>

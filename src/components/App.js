@@ -12,12 +12,15 @@ const App = () => {
   return (
    <BrowserRouter>
    <div>
-    <ul> 
+    
+    <nav>
+      <ul> 
         <li><Link to="/">Home</Link></li>
         
        <li> <Link to="/women">Women</Link></li>
         
       </ul>
+      </nav>
         <Routes>
           <Route path="/" element={<Home />} />
 
