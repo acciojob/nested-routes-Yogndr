@@ -14,7 +14,11 @@ const Women = () => {
       </ul>
     </nav>
       
+      <ul>
+        <li>
       <Outlet />
+      </li>
+      </ul>
       {/* <p>Women Items:</p>
       <ul>
         <li>

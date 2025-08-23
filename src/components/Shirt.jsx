@@ -4,10 +4,10 @@ const Shirt = () => {
   return (
    
     
-    <div>
-      <ul>
-      <li>Shirt</li>
-      </ul></div>
+    <>
+      Shirt
+      </>
+     
     
   )
 }
