@@ -3,7 +3,11 @@ import React from 'react'
 const Shirt = () => {
   return (
    
-    <div>Shirt</div>
+    
+    <div>
+      <ul>
+      <li>Shirt</li>
+      </ul></div>
     
   )
 }
