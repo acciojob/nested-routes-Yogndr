@@ -27,7 +27,7 @@ const App = () => {
           {/* Nested Routes for Women */}
           <Route path="/women" element={<Women />}>
             <Route path="grooming" element={<Grooming />} />
-            <Route path="shirt" element={<Shirt/>} />
+            <Route path="Shirt" element={<Shirt/>} />
             <Route path="trouser" element={<Trouser />} />
             <Route path="jewellery" element={<Jewellery/>} />
           </Route>
