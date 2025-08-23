@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 const Home = () => {
   return (
     
-    
+    <main>
         <div>
        
        
@@ -30,6 +30,7 @@ const Home = () => {
         </div>
       </main> */}
     </div>
+    </main>
    
   );
 };
