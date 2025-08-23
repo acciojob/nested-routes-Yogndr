@@ -5,7 +5,7 @@ const Home = () => {
   return (
     
     <main>
-        <div>
+        <div className="main" >
        
        
           <h3>Index</h3>
