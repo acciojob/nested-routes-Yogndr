@@ -22,7 +22,7 @@ const App = () => {
       </ul>
       </nav>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} >
 
           {/* Nested Routes for Women */}
           <Route path="/women" element={<Women />}>
@@ -30,6 +30,7 @@ const App = () => {
             <Route path="shirt" element={<Shirt/>} />
             <Route path="trouser" element={<Trouser />} />
             <Route path="jewellery" element={<Jewellery/>} />
+          </Route>
           </Route>
         </Routes>
        </div>
