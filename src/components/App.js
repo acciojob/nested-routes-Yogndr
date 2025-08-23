@@ -17,17 +17,17 @@ const App = () => {
       <ul> 
         <li><Link to="/">Home</Link></li>
         
-       <li> <Link to="/women">Women</Link></li>
+       <li> <Link to="women">Women</Link></li>
         
       </ul>
       </nav>
         <Routes>
           <Route path="/" element={<Home />} >
 
-          {/* Nested Routes for Women */}
+          
           <Route path="women" element={<Women />}>
             <Route path="grooming" element={<Grooming />} />
-            <Route path="Shirt" element={<Shirt/>} />
+            <Route path="shirt" element={<Shirt/>} />
             <Route path="trouser" element={<Trouser />} />
             <Route path="jewellery" element={<Jewellery/>} />
           </Route>
