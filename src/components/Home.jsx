@@ -15,8 +15,8 @@ const Home = () => {
           </li>
           
         </ul>
-      </nav>
-      <main>
+      </nav> */}
+      {/* <main>
         <div className="main">
           <h3>Index</h3>
           <Outlet />

@@ -4,11 +4,13 @@ import React from 'react';
 const Women = () => {
   return (
     <div>
-         <p>Women Items:</p><br/>
-      <Link to="grooming">Grooming</Link>
-      <Link to="shirt">Shirt</Link>
-      <Link to="trouser">Trouser</Link>
-      <Link to="jewellery">Jewellery</Link>
+         <p>Women Items:</p>
+         <ul>
+     <li> <Link to="grooming">Grooming</Link></li>
+      <li><Link to="shirt">Shirt</Link></li>
+      <li><Link to="trouser">Trouser</Link></li>
+      <li><Link to="jewellery">Jewellery</Link></li>
+      </ul>
 
       {/* Nested components will render here */}
       <Outlet />
