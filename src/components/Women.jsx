@@ -13,7 +13,7 @@ const Women = () => {
       <li><Link to="jewellery">Jewellery</Link></li>
       </ul>
     </nav>
-      {/* Nested components will render here */}
+      
       <Outlet />
       {/* <p>Women Items:</p>
       <ul>
