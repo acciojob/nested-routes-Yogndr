@@ -25,7 +25,7 @@ const App = () => {
           <Route path="/" element={<Home />} >
 
           {/* Nested Routes for Women */}
-          <Route path="/women" element={<Women />}>
+          <Route path="women" element={<Women />}>
             <Route path="grooming" element={<Grooming />} />
             <Route path="Shirt" element={<Shirt/>} />
             <Route path="trouser" element={<Trouser />} />
